@@ -68,6 +68,79 @@ background-repeat:no-repeat ;
 
 }
 
+/*redes sociales para desktop*/
+
+
+
+.icon-preview {
+  margin-left:1600px ;
+  width:30px ;
+}
+
+.icon-insta {
+  margin-left:1600px ;
+ width:30px;
+}
+.icon-youtube {
+  margin-left:1600px ;
+  width:30px ;
+
+}
+.icon-whatsapp {
+  margin-left:1600px ;
+  width:30px ;
+}
+
+/*redes sociales para media querie dispo medianos */
+ 
+
+   @media screen and (max-width:768px) 
+   {
+    
+.icon-preview {
+  margin-left:700px ;
+  width:30px ;
+}
+
+.icon-insta {
+  margin-left:700px ;
+ width:30px;
+}
+.icon-youtube {
+  margin-left:700px ;
+  width:30px ;
+
+}
+.icon-whatsapp {
+  margin-left:700px ;
+  width:30px ;
+}
+   } 
+
+   /*redes sociales para media querie dispo pequeños */
+   @media screen and (max-width:460px) 
+   {
+    .icon-preview {
+      margin-left:400px ;
+      width:30px ;
+    }
+    
+    .icon-insta {
+      margin-left:400px ;
+     width:30px;
+    }
+    .icon-youtube {
+      margin-left:400px ;
+      width:30px ;
+    
+    }
+    .icon-whatsapp {
+      margin-left:400px ;
+      width:30px ;
+    }
+   }
+
+
 .video-escuela {
   width: 800px; 
   height: 600px;
