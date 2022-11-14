@@ -398,7 +398,7 @@ ol {
 
  
   .tienda {
-    width:424px ;
+    width:400px ;
     height: 1775px ;
     margin-top:10px ;
     
@@ -416,8 +416,8 @@ ol {
 
   .galeria
    {
-    width:90px;
-   height:118px;
+    width:82px;
+   height:115px;
    display: flex;
    flex-direction: row;
   }
