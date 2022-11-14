@@ -321,6 +321,13 @@ ol {
   color: aliceblue;
 }
 
+@media screen and (max-width:460px) 
+{
+  .foto-clase {
+    width:300px ;
+  }
+}
+
 
 
 
@@ -391,7 +398,7 @@ ol {
 
  
   .tienda {
-    width:500px ;
+    width:424px ;
     height: 1775px ;
     margin-top:10px ;
     
@@ -409,8 +416,8 @@ ol {
 
   .galeria
    {
-    width:92px;
-   height:123px;
+    width:90px;
+   height:118px;
    display: flex;
    flex-direction: row;
   }
