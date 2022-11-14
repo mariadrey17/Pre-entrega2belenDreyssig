@@ -351,12 +351,13 @@ ol {
 }
 
 .galeria {
-  display: flex;
+  /*puedp hacer algo con grid en galeria*/
+ display: flex;
   flex-direction: column;
   
 
   width: 536px;
-  height:363x;
+  height:363px;
 }
 
 /* media querie para dispositivos moviles medianos muestras*/
@@ -398,13 +399,13 @@ ol {
 
  
   .tienda {
-    width:383px ;
+    width:318px ;
     height: 1770px ;
     margin-top:10px ;
     
   }
   .card-muestra{
-    width:250px ;
+    width:181px ;
     height:500px;
   margin-bottom:50px ;
   margin-right: 65px;
@@ -416,10 +417,10 @@ ol {
 
   .galeria
    {
-    width:75px;
-   height:98px;
-   display: flex;
-   flex-direction: row;
+    width:105px;
+   height:106px;
+   
+   
   }
    
   
@@ -427,14 +428,16 @@ ol {
     width:50px ;
     height:50px;
   }
-
+   .grilla {
    
-  .grilla{
-    display: flex;
-    flex-direction: column;
-   }
-   
-  
+  display: grid;
+      grid-template-columns: 2 ,1fr;
+      grid-template-areas:
+      "galeria  tienda"
+      "galeria  tienda"
+       " footer footer"
+    ;
+    }
    }
 
 
