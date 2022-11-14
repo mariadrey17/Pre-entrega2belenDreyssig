@@ -387,7 +387,7 @@ ol {
 /*media querie para dispositivos pequeños muestras  */
  
  /*tienda*/
- @media screen and (max-width: 420px) {
+ @media screen and (max-width: 46git0px) {
 
  
   .tienda {
@@ -532,7 +532,7 @@ form {
 
 /*media querie para dispositivos pequeños contacto */
 
- @media screen and (max-width:420px) 
+ @media screen and (max-width:460px) 
  {
   .caja-flex {
     display: flex;
