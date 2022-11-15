@@ -336,15 +336,14 @@ ol {
 
 .grilla {
   display: grid;
-}
+ 
+  }
 
 
 
- .tienda {
-  border:solid 2px rgb(245, 245, 245)
-  
-}
-.tienda {
+
+
+.Item5 {
   display: flex;
   justify-content: center;
   background-image:linear-gradient(to left ,grey, rgb(226, 96, 117)) ;
