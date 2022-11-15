@@ -321,6 +321,9 @@ ol {
   color: aliceblue;
 }
 
+
+/*clases para media query pequeños*/
+
 @media screen and (max-width:460px) 
 {
   .foto-clase {
