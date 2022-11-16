@@ -13,7 +13,7 @@ h1 {
   
   color:blanchedalmond;
   display: flex;
- justify-content: center;
+  justify-content: center;
 
 }
 h1 {
@@ -45,18 +45,18 @@ h3 {
 }
 
 h4 {
-  color: antiquewhite;
+color: antiquewhite;
 }
 h5 {
-  color: antiquewhite;
+color: antiquewhite;
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 body {
-  background-color:rgba(23, 21, 21, 0.875);
+background-color:rgba(23, 21, 21, 0.875);
 }
 
 
@@ -71,12 +71,10 @@ background-repeat:no-repeat ;
 /*redes sociales para desktop*/
 
 .container-redes {
-  display: flex;
-  flex-direction:row;
-  justify-content:flex-end;
+display: flex;
+flex-direction:row;
+justify-content:flex-end;
  
-  
-
 }
 
 .icon-preview {
@@ -101,26 +99,26 @@ background-repeat:no-repeat ;
 /*redes sociales para media querie dispositivos medianos */
  
 
-   @media screen and (max-width:768px) 
+ @media screen and (max-width:768px) 
 
-   {
+{
   .container-redes {
-    display: flex;
-    flex-direction:row;
-    justify-content:flex-end;
-    }
+  display: flex;
+  flex-direction:row;
+  justify-content:flex-end;
+  }
     
   
     
   .icon-preview {
  
-  width:30px ;
- }
+   width:30px ;
+  }
 
- .icon-insta {
+  .icon-insta {
  
   width:30px;
- }
+  }
   .icon-youtube {
  
    width:30px ;
@@ -133,36 +131,36 @@ background-repeat:no-repeat ;
    } 
 
    /*redes sociales para media querie dispositivos pequeños */
-   @media screen and (max-width:460px) 
-   {
+@media screen and (max-width:460px) 
+{
     
-  .container-redes {
-   display: flex;
-   flex-direction:row;
-   justify-content:flex-end;
+    .container-redes {
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-end;
  
   
 
     }
     .icon-preview {
       
-      width:30px ;
+    width:30px ;
     }
     
     .icon-insta {
     
-     width:30px;
+    width:30px;
     }
     .icon-youtube {
     
-      width:30px ;
+    width:30px ;
     
     }
     .icon-whatsapp {
       
-      width:30px ;
+    width:30px ;
     }
-   }
+}
 
 
 .video-escuela {
@@ -186,11 +184,11 @@ background-repeat:no-repeat ;
 
 
   .navegacion {
-    list-style: none;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-   margin-right:2.5rem;
+  list-style: none;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right:2.5rem;
     
 }
 
@@ -201,8 +199,8 @@ background-repeat:no-repeat ;
   }
 
   .navegacion li :hover {
-   color: rgb(252, 69, 99)  ;
-    }
+  color: rgb(252, 69, 99)  ;
+  }
   
     
 
@@ -234,14 +232,14 @@ text-decoration-line: none;
 
 .grid  {
   
-    display: grid;
-    grid-template-columns:1 , 1fr ;
-    grid-template-rows:4,1fr ;
-    }
+  display: grid;
+  grid-template-columns:1 , 1fr ;
+  grid-template-rows:4,1fr ;
+  }
  
   .grid div  {
 
-    border:solid 2px rgb(245, 245, 245)
+  border:solid 2px rgb(245, 245, 245)
   }
    
 
@@ -284,20 +282,18 @@ text-decoration-line: none;
 @media  screen and (max-width :460px)
     
 { body {
- background-color:rgb(160, 68, 83) ;
+  background-color:rgb(160, 68, 83) ;
   }
  .navegacion{
-    display:flex;
-    flex-direction: column;
+   display:flex;
+  flex-direction: column;
 
   }
   .video-escuela {
-    width: 350px;
-    height:300px;
+  width: 350px;
+  height:300px;
   }
-
-  
-}
+ }
 
 
 
@@ -309,15 +305,15 @@ text-decoration-line: none;
 .docentes {
   display:flex;
   flex-direction: column;
- justify-content: center;
- align-items: center;
+  justify-content: center;
+  align-items: center;
  }
  
  .foto-profe {
   
 
   height: 12rem;
-   width:12rem;
+  width:12rem;
    
 }
 
@@ -358,13 +354,13 @@ ol {
 @media screen and (max-width:460px) 
 {
   .foto-clase {
-    width:300px ;
+  width:300px ;
   }
   .container-table {
-    border: solid 1px  blanchedalmond;
-    width: 361px;
-    height: 817px ;
-    }
+  border: solid 1px  blanchedalmond;
+  width: 361px;
+  height: 817px ;
+  }
  
 }
 
@@ -391,7 +387,7 @@ ol {
 
 .galeria {
   /*puedp hacer algo con grid en galeria*/
- display: flex;
+  display: flex;
   flex-direction: column;
   
 
@@ -402,9 +398,9 @@ ol {
 /* media querie para dispositivos moviles medianos muestras*/
 
 @media screen and (max-width :768px) {
-   .galeria {
+    .galeria {
    
-      width:348px;
+    width:348px;
     
   
     }
@@ -419,41 +415,41 @@ ol {
 /*media querie para dispositivos pequeños muestras  */
  
  /*tienda*/
- @media screen and (max-width: 460px) {
+@media screen and (max-width: 460px) {
 
  
-  .tienda {
+   .tienda {
     width:318px ;
     height: 1770px ;
     margin-top:10px ;
     
-  }
-  .card-muestra{
+    }
+   .card-muestra{
     width:181px ;
     height:500px;
-  margin-bottom:50px ;
-  margin-right: 65px;
+    margin-bottom:50px ;
+    margin-right: 65px;
   
     
-  }
+    }
 
 
 
-  .galeria
-   {
+    .galeria
+    {  
     width:105px;
-   height:106px;
+    height:106px;
    
    
-  }
+    }
    
   
-  .card-foto {
+    .card-foto {
     width:50px ;
     height:50px;
-  }
+    } 
   
-   }
+  }
 
 
     
@@ -468,32 +464,32 @@ ol {
 
 .caja-mala {
   border:solid 0.20rem ;
-   padding:4rem;
-   display:inline-block;
-   font-size:1.6rem ;
-   width:1rem ;
-   height:1rem;
-   font-family:arial;
-   overflow:visible;
-   background-image:linear-gradient(to left ,grey, rgb(226, 96, 117)) ;
-   }
+  padding:4rem;
+  display:inline-block;
+  font-size:1.6rem ;
+  width:1rem ;
+  height:1rem;
+  font-family:arial;
+  overflow:visible;
+  background-image:linear-gradient(to left ,grey, rgb(226, 96, 117)) ;
+}
 .card {
-   border:solid .1rem pink ;
-   width:20rem ;
-   padding:2rem;
-   position:relative;
+  border:solid .1rem pink ;
+  width:20rem ;
+  padding:2rem;
+  position:relative;
    
 }
 
 .caja-flex {
-   display: flex;
+  display: flex;
 }
 
 .adulg {
-   border:solid .1rem pink ;
-   width:20rem ;
-   padding:2rem;
-   position:relative;
+  border:solid .1rem pink ;
+  width:20rem ;
+  padding:2rem;
+  position:relative;
 
 }
 
@@ -501,44 +497,44 @@ ol {
 
 div {
 
-   margin-top:50px ;
-color:antiquewhite;
-font-weight:bolder;
+  margin-top:50px ;
+  color:antiquewhite;
+  font-weight:bolder;
 }
 
 
 .card_parrafo {
-   font-size:1rem;
-   margin-bottom:2rem ;
+  font-size:1rem;
+  margin-bottom:2rem ;
 }
 
 .card_image {
-   width:20rem ;
-   height:20rem ;
+  width:20rem ;
+  height:20rem ;
 }
 .boton {
-   padding :1rem;
-   margin-bottom:5rem ;
+  padding :1rem;
+  margin-bottom:5rem ;
 }
 
 .mapa {
-   margin-top:2rem;
+  margin-top:2rem;
 
 }
 
 
 footer {
-   color:antiquewhite;
+  color:antiquewhite;
 }
 
 
 
 form {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
   
 } 
 
@@ -564,25 +560,25 @@ form {
 
 /*media querie para dispositivos pequeños contacto */
 
- @media screen and (max-width:460px) 
- {
+@media screen and (max-width:460px) 
+{
   .caja-flex {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   }
   .card {
-    width:200px ;
+  width:200px ;
 
   }
 
   .card_image {
-    width:400px;
-    height: 283px;
- }
- .mapa {
+  width:400px;
+  height: 283px;
+  }
+  .mapa {
   width: 352px;
- }
- }
+  }
+}
 
 
 
