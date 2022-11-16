@@ -91,7 +91,7 @@ background-repeat:no-repeat ;
   width:30px ;
 }
 
-/*redes sociales para media querie dispo medianos */
+/*redes sociales para media querie dispositivos medianos */
  
 
    @media screen and (max-width:768px) 
@@ -117,7 +117,7 @@ background-repeat:no-repeat ;
 }
    } 
 
-   /*redes sociales para media querie dispo pequeños */
+   /*redes sociales para media querie dispositivos pequeños */
    @media screen and (max-width:460px) 
    {
     .icon-preview {
@@ -329,6 +329,7 @@ ol {
   .foto-clase {
     width:300px ;
   }
+ 
 }
 
 
