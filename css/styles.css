@@ -104,30 +104,46 @@ background-repeat:no-repeat ;
    @media screen and (max-width:768px) 
 
    {
+  .container-redes {
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    }
     
-.icon-preview {
+  
+    
+  .icon-preview {
  
   width:30px ;
-}
+ }
 
-.icon-insta {
+ .icon-insta {
  
- width:30px;
-}
-.icon-youtube {
+  width:30px;
+ }
+  .icon-youtube {
  
-  width:30px ;
+   width:30px ;
 
-}
-.icon-whatsapp {
+  }
+  .icon-whatsapp {
  
-  width:30px ;
-}
+   width:30px ;
+  }
    } 
 
    /*redes sociales para media querie dispositivos pequeños */
    @media screen and (max-width:460px) 
    {
+    
+  .container-redes {
+   display: flex;
+   flex-direction:row;
+   justify-content:flex-end;
+ 
+  
+
+    }
     .icon-preview {
       
       width:30px ;
