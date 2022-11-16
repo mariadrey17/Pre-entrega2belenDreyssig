@@ -70,24 +70,31 @@ background-repeat:no-repeat ;
 
 /*redes sociales para desktop*/
 
+.container-redes {
+  display: flex;
+  flex-direction:row;
+  justify-content:flex-end;
+ 
+  
 
+}
 
 .icon-preview {
-  margin-left:1600px ;
   width:30px ;
+  height:30px;
 }
 
 .icon-insta {
-  margin-left:1600px ;
+ 
  width:30px;
 }
 .icon-youtube {
-  margin-left:1600px ;
+ 
   width:30px ;
 
 }
 .icon-whatsapp {
-  margin-left:1600px ;
+  
   width:30px ;
 }
 
@@ -95,24 +102,25 @@ background-repeat:no-repeat ;
  
 
    @media screen and (max-width:768px) 
+
    {
     
 .icon-preview {
-  margin-left:700px ;
+ 
   width:30px ;
 }
 
 .icon-insta {
-  margin-left:700px ;
+ 
  width:30px;
 }
 .icon-youtube {
-  margin-left:700px ;
+ 
   width:30px ;
 
 }
 .icon-whatsapp {
-  margin-left:700px ;
+ 
   width:30px ;
 }
    } 
@@ -121,21 +129,21 @@ background-repeat:no-repeat ;
    @media screen and (max-width:460px) 
    {
     .icon-preview {
-      margin-left:350px ;
+      
       width:30px ;
     }
     
     .icon-insta {
-      margin-left:350px ;
+    
      width:30px;
     }
     .icon-youtube {
-      margin-left:350px ;
+    
       width:30px ;
     
     }
     .icon-whatsapp {
-      margin-left:350px ;
+      
       width:30px ;
     }
    }
